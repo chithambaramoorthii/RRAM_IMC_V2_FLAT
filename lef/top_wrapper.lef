@@ -8,7 +8,7 @@ MACRO top_wrapper
   ORIGIN 0.000 0.000 ;
   SIZE 1800.000 BY 1700.000 ;
   PIN ADC_OUT_OBS[0]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -16,7 +16,7 @@ MACRO top_wrapper
     END
   END ADC_OUT_OBS[0]
   PIN ADC_OUT_OBS[1]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -24,7 +24,7 @@ MACRO top_wrapper
     END
   END ADC_OUT_OBS[1]
   PIN ADC_OUT_OBS[2]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -40,7 +40,7 @@ MACRO top_wrapper
     END
   END BL0
   PIN CSA[0]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -48,7 +48,7 @@ MACRO top_wrapper
     END
   END CSA[0]
   PIN CSA[10]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -56,7 +56,7 @@ MACRO top_wrapper
     END
   END CSA[10]
   PIN CSA[11]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -64,7 +64,7 @@ MACRO top_wrapper
     END
   END CSA[11]
   PIN CSA[12]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -72,7 +72,7 @@ MACRO top_wrapper
     END
   END CSA[12]
   PIN CSA[13]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -80,7 +80,7 @@ MACRO top_wrapper
     END
   END CSA[13]
   PIN CSA[14]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -88,7 +88,7 @@ MACRO top_wrapper
     END
   END CSA[14]
   PIN CSA[15]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -96,7 +96,7 @@ MACRO top_wrapper
     END
   END CSA[15]
   PIN CSA[1]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -104,7 +104,7 @@ MACRO top_wrapper
     END
   END CSA[1]
   PIN CSA[2]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -112,7 +112,7 @@ MACRO top_wrapper
     END
   END CSA[2]
   PIN CSA[3]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -120,7 +120,7 @@ MACRO top_wrapper
     END
   END CSA[3]
   PIN CSA[4]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -128,7 +128,7 @@ MACRO top_wrapper
     END
   END CSA[4]
   PIN CSA[5]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -136,7 +136,7 @@ MACRO top_wrapper
     END
   END CSA[5]
   PIN CSA[6]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -144,7 +144,7 @@ MACRO top_wrapper
     END
   END CSA[6]
   PIN CSA[7]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -152,7 +152,7 @@ MACRO top_wrapper
     END
   END CSA[7]
   PIN CSA[8]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -160,7 +160,7 @@ MACRO top_wrapper
     END
   END CSA[8]
   PIN CSA[9]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met3 ;
@@ -1144,7 +1144,7 @@ MACRO top_wrapper
     END
   END wishbone_data_in[9]
   PIN wishbone_data_out[0]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1152,7 +1152,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[0]
   PIN wishbone_data_out[10]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1160,7 +1160,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[10]
   PIN wishbone_data_out[11]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1168,7 +1168,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[11]
   PIN wishbone_data_out[12]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1176,7 +1176,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[12]
   PIN wishbone_data_out[13]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1184,7 +1184,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[13]
   PIN wishbone_data_out[14]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1192,7 +1192,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[14]
   PIN wishbone_data_out[15]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1200,7 +1200,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[15]
   PIN wishbone_data_out[16]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1208,7 +1208,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[16]
   PIN wishbone_data_out[17]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1216,7 +1216,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[17]
   PIN wishbone_data_out[18]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1224,7 +1224,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[18]
   PIN wishbone_data_out[19]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1232,7 +1232,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[19]
   PIN wishbone_data_out[1]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1240,7 +1240,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[1]
   PIN wishbone_data_out[20]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1248,7 +1248,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[20]
   PIN wishbone_data_out[21]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1256,7 +1256,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[21]
   PIN wishbone_data_out[22]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1264,7 +1264,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[22]
   PIN wishbone_data_out[23]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1272,7 +1272,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[23]
   PIN wishbone_data_out[24]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1280,7 +1280,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[24]
   PIN wishbone_data_out[25]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1288,7 +1288,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[25]
   PIN wishbone_data_out[26]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1296,7 +1296,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[26]
   PIN wishbone_data_out[27]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1304,7 +1304,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[27]
   PIN wishbone_data_out[28]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1312,7 +1312,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[28]
   PIN wishbone_data_out[29]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1320,7 +1320,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[29]
   PIN wishbone_data_out[2]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1328,7 +1328,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[2]
   PIN wishbone_data_out[30]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1336,7 +1336,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[30]
   PIN wishbone_data_out[31]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1344,7 +1344,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[31]
   PIN wishbone_data_out[3]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1352,7 +1352,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[3]
   PIN wishbone_data_out[4]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1360,7 +1360,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[4]
   PIN wishbone_data_out[5]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1368,7 +1368,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[5]
   PIN wishbone_data_out[6]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1376,7 +1376,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[6]
   PIN wishbone_data_out[7]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1384,7 +1384,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[7]
   PIN wishbone_data_out[8]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1392,7 +1392,7 @@ MACRO top_wrapper
     END
   END wishbone_data_out[8]
   PIN wishbone_data_out[9]
-    DIRECTION OUTPUT TRISTATE ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met2 ;
@@ -1401,9 +1401,11 @@ MACRO top_wrapper
   END wishbone_data_out[9]
   OBS
       LAYER li1 ;
-        RECT 5.520 10.795 1794.460 1689.205 ;
+        RECT 3.430 6.200 1794.770 1689.590 ;
       LAYER met1 ;
-        RECT 5.520 6.500 1799.910 1689.360 ;
+        RECT 3.430 1689.360 1794.770 1689.590 ;
+        RECT 3.430 6.500 1799.910 1689.360 ;
+        RECT 3.430 6.200 1794.770 6.500 ;
       LAYER met2 ;
         RECT 21.070 1695.720 53.170 1696.330 ;
         RECT 54.010 1695.720 158.970 1696.330 ;
@@ -1423,7 +1425,9 @@ MACRO top_wrapper
         RECT 1535.210 1695.720 1640.170 1696.330 ;
         RECT 1641.010 1695.720 1745.970 1696.330 ;
         RECT 1746.810 1695.720 1799.880 1696.330 ;
-        RECT 21.070 4.280 1799.880 1695.720 ;
+        RECT 21.070 1689.590 1799.880 1695.720 ;
+        RECT 3.430 6.200 1799.880 1689.590 ;
+        RECT 21.070 4.280 1799.880 6.200 ;
         RECT 21.070 3.670 31.550 4.280 ;
         RECT 32.390 3.670 48.570 4.280 ;
         RECT 49.410 3.670 65.590 4.280 ;
@@ -1529,83 +1533,89 @@ MACRO top_wrapper
         RECT 1751.410 3.670 1767.590 4.280 ;
         RECT 1768.430 3.670 1799.880 4.280 ;
       LAYER met3 ;
-        RECT 21.050 1652.080 1796.235 1689.285 ;
-        RECT 21.050 1650.680 1795.600 1652.080 ;
-        RECT 21.050 1563.000 1796.235 1650.680 ;
-        RECT 21.050 1561.600 1795.600 1563.000 ;
-        RECT 21.050 1473.920 1796.235 1561.600 ;
-        RECT 21.050 1472.520 1795.600 1473.920 ;
-        RECT 21.050 1384.840 1796.235 1472.520 ;
-        RECT 21.050 1383.440 1795.600 1384.840 ;
-        RECT 21.050 1295.760 1796.235 1383.440 ;
-        RECT 21.050 1294.360 1795.600 1295.760 ;
-        RECT 21.050 1206.680 1796.235 1294.360 ;
-        RECT 21.050 1205.280 1795.600 1206.680 ;
-        RECT 21.050 1117.600 1796.235 1205.280 ;
-        RECT 21.050 1116.200 1795.600 1117.600 ;
-        RECT 21.050 1028.520 1796.235 1116.200 ;
-        RECT 21.050 1027.120 1795.600 1028.520 ;
-        RECT 21.050 939.440 1796.235 1027.120 ;
-        RECT 21.050 938.040 1795.600 939.440 ;
-        RECT 21.050 850.360 1796.235 938.040 ;
-        RECT 21.050 848.960 1795.600 850.360 ;
-        RECT 21.050 761.280 1796.235 848.960 ;
-        RECT 21.050 759.880 1795.600 761.280 ;
-        RECT 21.050 672.200 1796.235 759.880 ;
-        RECT 21.050 670.800 1795.600 672.200 ;
-        RECT 21.050 583.120 1796.235 670.800 ;
-        RECT 21.050 581.720 1795.600 583.120 ;
-        RECT 21.050 494.040 1796.235 581.720 ;
-        RECT 21.050 492.640 1795.600 494.040 ;
-        RECT 21.050 404.960 1796.235 492.640 ;
-        RECT 21.050 403.560 1795.600 404.960 ;
-        RECT 21.050 315.880 1796.235 403.560 ;
-        RECT 21.050 314.480 1795.600 315.880 ;
-        RECT 21.050 226.800 1796.235 314.480 ;
-        RECT 21.050 225.400 1795.600 226.800 ;
-        RECT 21.050 137.720 1796.235 225.400 ;
-        RECT 21.050 136.320 1795.600 137.720 ;
-        RECT 21.050 48.640 1796.235 136.320 ;
-        RECT 21.050 47.240 1795.600 48.640 ;
-        RECT 21.050 8.335 1796.235 47.240 ;
+        RECT 3.430 1689.285 1794.770 1689.590 ;
+        RECT 3.430 1652.080 1796.235 1689.285 ;
+        RECT 3.430 1650.680 1795.600 1652.080 ;
+        RECT 3.430 1563.000 1796.235 1650.680 ;
+        RECT 3.430 1561.600 1795.600 1563.000 ;
+        RECT 3.430 1473.920 1796.235 1561.600 ;
+        RECT 3.430 1472.520 1795.600 1473.920 ;
+        RECT 3.430 1384.840 1796.235 1472.520 ;
+        RECT 3.430 1383.440 1795.600 1384.840 ;
+        RECT 3.430 1295.760 1796.235 1383.440 ;
+        RECT 3.430 1294.360 1795.600 1295.760 ;
+        RECT 3.430 1206.680 1796.235 1294.360 ;
+        RECT 3.430 1205.280 1795.600 1206.680 ;
+        RECT 3.430 1117.600 1796.235 1205.280 ;
+        RECT 3.430 1116.200 1795.600 1117.600 ;
+        RECT 3.430 1028.520 1796.235 1116.200 ;
+        RECT 3.430 1027.120 1795.600 1028.520 ;
+        RECT 3.430 939.440 1796.235 1027.120 ;
+        RECT 3.430 938.040 1795.600 939.440 ;
+        RECT 3.430 850.360 1796.235 938.040 ;
+        RECT 3.430 848.960 1795.600 850.360 ;
+        RECT 3.430 761.280 1796.235 848.960 ;
+        RECT 3.430 759.880 1795.600 761.280 ;
+        RECT 3.430 672.200 1796.235 759.880 ;
+        RECT 3.430 670.800 1795.600 672.200 ;
+        RECT 3.430 583.120 1796.235 670.800 ;
+        RECT 3.430 581.720 1795.600 583.120 ;
+        RECT 3.430 494.040 1796.235 581.720 ;
+        RECT 3.430 492.640 1795.600 494.040 ;
+        RECT 3.430 404.960 1796.235 492.640 ;
+        RECT 3.430 403.560 1795.600 404.960 ;
+        RECT 3.430 315.880 1796.235 403.560 ;
+        RECT 3.430 314.480 1795.600 315.880 ;
+        RECT 3.430 226.800 1796.235 314.480 ;
+        RECT 3.430 225.400 1795.600 226.800 ;
+        RECT 3.430 137.720 1796.235 225.400 ;
+        RECT 3.430 136.320 1795.600 137.720 ;
+        RECT 3.430 48.640 1796.235 136.320 ;
+        RECT 3.430 47.240 1795.600 48.640 ;
+        RECT 3.430 8.335 1796.235 47.240 ;
+        RECT 3.430 6.200 1794.770 8.335 ;
       LAYER met4 ;
-        RECT 242.255 11.735 327.840 1622.305 ;
-        RECT 330.240 11.735 331.140 1622.305 ;
-        RECT 333.540 11.735 481.440 1622.305 ;
-        RECT 483.840 11.735 484.740 1622.305 ;
-        RECT 487.140 11.735 635.040 1622.305 ;
-        RECT 637.440 11.735 638.340 1622.305 ;
-        RECT 640.740 1544.780 788.640 1622.305 ;
-        RECT 791.040 1544.780 791.940 1622.305 ;
-        RECT 794.340 1544.780 942.240 1622.305 ;
-        RECT 944.640 1544.780 945.540 1622.305 ;
-        RECT 947.940 1544.780 1095.840 1622.305 ;
-        RECT 1098.240 1544.780 1099.140 1622.305 ;
-        RECT 1101.540 1544.780 1249.440 1622.305 ;
-        RECT 1251.840 1544.780 1252.740 1622.305 ;
-        RECT 1255.140 1544.780 1403.040 1622.305 ;
-        RECT 1405.440 1544.780 1406.340 1622.305 ;
-        RECT 1408.740 1544.780 1556.640 1622.305 ;
-        RECT 1559.040 1544.780 1559.940 1622.305 ;
-        RECT 1562.340 1544.780 1710.240 1622.305 ;
-        RECT 1712.640 1544.780 1713.540 1622.305 ;
-        RECT 1715.940 1544.780 1789.105 1622.305 ;
-        RECT 640.740 207.180 1789.105 1544.780 ;
-        RECT 640.740 11.735 788.640 207.180 ;
-        RECT 791.040 11.735 791.940 207.180 ;
-        RECT 794.340 11.735 942.240 207.180 ;
-        RECT 944.640 11.735 945.540 207.180 ;
-        RECT 947.940 11.735 1095.840 207.180 ;
-        RECT 1098.240 11.735 1099.140 207.180 ;
-        RECT 1101.540 11.735 1249.440 207.180 ;
-        RECT 1251.840 11.735 1252.740 207.180 ;
-        RECT 1255.140 11.735 1403.040 207.180 ;
-        RECT 1405.440 11.735 1406.340 207.180 ;
-        RECT 1408.740 11.735 1556.640 207.180 ;
-        RECT 1559.040 11.735 1559.940 207.180 ;
-        RECT 1562.340 11.735 1710.240 207.180 ;
-        RECT 1712.640 11.735 1713.540 207.180 ;
-        RECT 1715.940 11.735 1789.105 207.180 ;
+        RECT 3.430 6.200 21.040 1689.590 ;
+        RECT 22.640 6.200 24.340 1689.590 ;
+        RECT 25.940 6.200 174.640 1689.590 ;
+        RECT 176.240 6.200 177.940 1689.590 ;
+        RECT 179.540 6.200 328.240 1689.590 ;
+        RECT 329.840 6.200 331.540 1689.590 ;
+        RECT 333.140 6.200 481.840 1689.590 ;
+        RECT 483.440 6.200 485.140 1689.590 ;
+        RECT 486.740 6.200 635.440 1689.590 ;
+        RECT 637.040 6.200 638.740 1689.590 ;
+        RECT 640.340 1545.180 789.040 1689.590 ;
+        RECT 790.640 1545.180 792.340 1689.590 ;
+        RECT 793.940 1545.180 942.640 1689.590 ;
+        RECT 944.240 1545.180 945.940 1689.590 ;
+        RECT 947.540 1545.180 1096.240 1689.590 ;
+        RECT 1097.840 1545.180 1099.540 1689.590 ;
+        RECT 1101.140 1545.180 1249.840 1689.590 ;
+        RECT 1251.440 1545.180 1253.140 1689.590 ;
+        RECT 1254.740 1545.180 1403.440 1689.590 ;
+        RECT 1405.040 1545.180 1406.740 1689.590 ;
+        RECT 1408.340 1545.180 1557.040 1689.590 ;
+        RECT 1558.640 1545.180 1560.340 1689.590 ;
+        RECT 1561.940 1545.180 1710.640 1689.590 ;
+        RECT 1712.240 1545.180 1713.940 1689.590 ;
+        RECT 1715.540 1545.180 1794.770 1689.590 ;
+        RECT 640.340 206.780 1794.770 1545.180 ;
+        RECT 640.340 6.200 789.040 206.780 ;
+        RECT 790.640 6.200 792.340 206.780 ;
+        RECT 793.940 6.200 942.640 206.780 ;
+        RECT 944.240 6.200 945.940 206.780 ;
+        RECT 947.540 6.200 1096.240 206.780 ;
+        RECT 1097.840 6.200 1099.540 206.780 ;
+        RECT 1101.140 6.200 1249.840 206.780 ;
+        RECT 1251.440 6.200 1253.140 206.780 ;
+        RECT 1254.740 6.200 1403.440 206.780 ;
+        RECT 1405.040 6.200 1406.740 206.780 ;
+        RECT 1408.340 6.200 1557.040 206.780 ;
+        RECT 1558.640 6.200 1560.340 206.780 ;
+        RECT 1561.940 6.200 1710.640 206.780 ;
+        RECT 1712.240 6.200 1713.940 206.780 ;
+        RECT 1715.540 6.200 1794.770 206.780 ;
       LAYER met5 ;
         RECT 657.770 1411.850 1756.280 1534.880 ;
         RECT 689.940 1403.750 1756.280 1411.850 ;
