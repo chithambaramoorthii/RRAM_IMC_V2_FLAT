@@ -82,6 +82,49 @@ module user_project_wrapper #(
 /* User project is instantiated  here   */
 /*--------------------------------------*/
 
+top_wrapper dut_top(
+    //`ifdef USE_POWER_PINS
+        //.vdd3v3(vdda1),  // User area 1 1.8V power
+        .vccd1(vccd1),
+        .vssd1(vssd1),  // User area 1 digital ground
+    //`endif
+        .clk(wb_clk_i),
+        .rst(wb_rst_i),
+        .wishbone_data_in(wbs_dat_i),
+        .wishbone_address_bus(wbs_adr_i),
+        .wishbone_data_out(wbs_dat_o),
+        .wbs_we_i(wbs_we_i),
+        .enable_IM(la_data_in[0]),
+        .V1_WL(analog_io[0]),
+        .V2_WL(analog_io[1]),
+        .V3_WL(analog_io[2]),
+        .V4_WL(analog_io[3]),
+        .V1_SL(analog_io[4]),
+        .V2_SL(analog_io[5]),
+        .V3_SL(analog_io[6]),
+        .V4_SL(analog_io[7]),
+        .V1_BL(analog_io[8]),
+        .V2_BL(analog_io[9]),
+        .V3_BL(analog_io[10]),
+        .V4_BL(analog_io[11]),
+        .V0_REF_ADC(analog_io[12]),
+        .V1_REF_ADC(analog_io[13]),
+        .V2_REF_ADC(analog_io[14]),
+        .REF_CSA(analog_io[15]),
+        .VDD_PRE(analog_io[16]),
+        .SL0(analog_io[17]),
+        .WL0(analog_io[18]),
+        .BL0(analog_io[19]),
+        .CSA(csa_wire),
+        .ADC_OUT_OBS(analog_io[22:20])
+        
+        );
+
+wire [15:0] csa_wire;
+//wire [2:0] adc_obs;
+assign analog_io[20] = csa_wire[0];
+
+/*
 user_proj_example mprj (
 `ifdef USE_POWER_PINS
 	.vccd1(vccd1),	// User area 1 1.8V power
@@ -117,7 +160,7 @@ user_proj_example mprj (
     // IRQ
     .irq(user_irq)
 );
-
+*/
 endmodule	// user_project_wrapper
 
 `default_nettype wire
